@@ -1,5 +1,5 @@
 class Tree {
-  contructor(species) {
+  constructor(species) {
     this.species = species;
   }
   
