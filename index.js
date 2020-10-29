@@ -13,3 +13,9 @@ class Deciduous extends Tree {
     super(species)
     this.name = name
   }
+  
+  class Deciduous extends Tree {
+  constructor(species, name) {
+    super(species)
+    this._name = name
+  }
